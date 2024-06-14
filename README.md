@@ -36,70 +36,16 @@ https://wokwi.com/projects/400532287525314561
 1. Concte as portas "2, "3", "4" e "5" as "perninhas" dos botões e um ao GND
    
 ## ⚙ Funcionamento
-
+![imagem_prototipo](https://github.com/Pedro-Camacho/Challenge-Edge-Computing/assets/49591140/026dd98d-9577-4e96-a6bc-0a47b0cd490d)
 
 
 ## Instalação de dependecias
 Para a execução da aplicação será necessária a instalção da biblioteca Liquid Crystal
 
-O sistema é divido entre as três principais grandezas analisadas:
+Nosso projeto funciona da seguinte maneira, iniciamos todas as variáveis globais como portas de saídas e entradas de componente,
+todos os LEDs, botões, buzzer, assim inciamos as variáveis de botões jogados, o estado de jogo e o nível.
+Assim entramos no nosso setup onde inciamos cada componente e o monitor serial, e logo em seguida no nosso loop principal, onde o código verifica o estado do jogo atual e procede conforme o estado que esteja, onde o caso 0 é quando iremos inciar o jogo em seguida o caso 1 temos nosso primeiro nivel que toca uma nota relacionada a um dos leds e assim você em seguida deve acertar a nota aertando o botão relacionado, assim o código verifica se você acertou a ordem e vai para os proximos casos 2,3,4,5 e se você errar mostramos no display que o jogo se encerra.
 
-> Os valores de luminosidade e umidade foram convertidos em uma escalas de 0 a 100 com base na amplitude dos seus respectivos sensores para facilitar a analise
-
-### Luminosidade
-
-#### Luminosidade menor que 30
-- Enquanto a luminosidade for menor do que 30 o led verde se manterá acesso
-- o ambiente está na luminosidade ideal
-  
-#### Luminosidade maior que 30 e menor que 50
-- Enquanto a luminosidade estiver nessa faixa o led amarelo se manterá acesso
-- O ambiente está a meia luz
-- Manter vigilancia
-
-#### Luminosidade maior 50
-- Enquanto a luminosidade estiver nessa faixa o led vermelho se manterá acesso
-- O ambiente está com muita luminosidade
-- Agir imediatamente
-- Alerta sonoro
-  
-
-  
-### Umidade
-#### umidade menor que 50
-- Enquanto a umidade estiver nessa faixa, nenhum led se manterá acesso
-- Display mostrará a mensagem "umidade baixa"
-  
-#### umidade maior que 50 e menor que 70
-- Enquanto a umidade estiver nessa faixa, o led amarelo se manterá acesso
-- Display mostrará a mensagem "umidade OK"
-- Alerta sonoro
-- Manter vigilancia
-
-#### umidade maior que 70
-- Enquanto a umidade estiver nessa faixa, o led vermelho se manterá acesso
-- Display mostrará a mensagem "umidade ALTA"
-- Alerta sonoro
-- Agir imediatamente
-
-
-  
-### Temperatura 
-#### temperatura menor que 10
-- Enquanto a umidade estiver nessa faixa, nenhum led se manterá acesso
-- Display mostrará a mensagem "temperatura baixa"
-  
-#### temperatura maior que 10 e menor que 15
-- Enquanto a umidade estiver nessa faixa, o led amarelo se manterá acesso
-- Display mostrará a mensagem "temperatura OK"
-- Alerta sonoro
-- Manter vigilancia
-
-#### temperatura maior que 15
-- Enquanto a umidade estiver nessa faixa, o led vermelho se manterá acesso
-- Display mostrará a mensagem "temperatura ALTA"
-- Alerta sonoro
-- Agir imediatamente
 
 
 ## 🙎‍♂️🙎‍♀️ INTEGRANTES

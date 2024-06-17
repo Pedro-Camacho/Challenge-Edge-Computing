@@ -1,6 +1,22 @@
-# Prototipo de jogo de memoria para ganhar pontos no E-kids
-O arduino é utilizado neste projeto para a montagem de um jogo simples de memória para nosso público alvo infantil.
+# E-kids
 
+### O Problema
+Um dos principais obstáculos que a Fórmula-E enfrenta é a falta de visibilidade do esporte em comparação com outras categorias automobilísticas mais estabelecidas, como a Fórmula-1 ou a NASCAR. Enquanto estas categorias têm décadas de história e uma presença global consolidada, a Fórmula-E ainda está em processo de construção de sua base de fãs e de se estabelecer como uma alternativa emocionante e sustentável no mundo das corridas.
+
+A falta de um público mais amplo, especialmente entre as gerações mais jovens, pode ser atribuída a diversos fatores. Um deles é a percepção de que as corridas de carros elétricos podem não oferecer a mesma emoção e espetáculo das corridas de carros com motores de combustão interna. O som característico dos motores elétricos, que é consideravelmente mais silencioso do que o rugido dos motores a gasolina, pode não ter o mesmo apelo para os entusiastas de corridas que valorizam a sensação de velocidade e poder.
+
+Além disso, a falta de investimento em marketing e promoção também contribui para a baixa visibilidade da Fórmula-E. Enquanto outras categorias automobilísticas contam com orçamentos substanciais para publicidade e eventos promocionais, a Fórmula-E pode não ter os mesmos recursos disponíveis para se destacar em um mercado tão competitivo.
+
+### Nossa Solução
+Nossa solução é criar uma plataforma on-line chamada “E-Kids" que se destaca por direcionar sua proposta para crianças e jovens, um público mais receptivo e aberto a novas experiências. Ao contrário de um público mais velho, que pode ter preferências sólidas, as crianças estão prontas para mergulhar em um universo completamente novo e emocionante. Ao cativar esse público em fase de descoberta, não apenas facilitamos a atração inicial, mas também garantimos uma conexão genuína e duradoura com a Fórmula-E. Essa estratégia não só garante o sucesso imediato do nosso site, mas também estabelece uma base de fãs sólida e apaixonada, pronta para crescer e evoluir com o tempo.
+
+Em nossa plataforma, as crianças e os jovens podem acessar conteúdo educativo e atividades relacionadas à Fórmula-E, como sobre os pilotos, equipes, carros, corridas e circuitos. Porém o elemento principal da nossa solução é um álbum de figurinhas virtual, onde as crianças podem colecionar e trocar figurinhas dos pilotos e carros da Fórmula-E com seus amigos. Além disso, há também quizzes e outras atividades interativas relacionadas à Fórmula-E para entreter e educar as crianças. 
+
+
+# Prototipo de jogo de memoria para ganhar pontos ou figurinhas E-kids
+O arduino é utilizado neste projeto para a montagem de um jogo simples de memória para nosso público alvo infantil. Ao ganhat, os participantes têm a chance de acumular pontos ou até mesmo conquistar figurinhas raras para seu álbum virtual da Fórmula-E.
+
+O jogo (conhecido como Simon Game ou Genius) consiste em um dispositivo com quatro botões coloridos que emitem sons e luzes. O objetivo do jogo é repetir uma sequência crescente de luzes e sons gerada aleatoriamente pelo dispositivo. Cada vez que o jogador completa corretamente a sequência, ela se torna mais longa e desafiadora. Se o jogador errar a sequência, o jogo termina. 
 
 ## 🎞 Link para o video apresentação
 !!

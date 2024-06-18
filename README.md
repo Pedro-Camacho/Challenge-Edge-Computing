@@ -19,7 +19,7 @@ O arduino é utilizado neste projeto para a montagem de um jogo simples de memó
 O jogo (conhecido como Simon Game ou Genius) consiste em um dispositivo com quatro botões coloridos que emitem sons e luzes. O objetivo do jogo é repetir uma sequência crescente de luzes e sons gerada aleatoriamente pelo dispositivo. Cada vez que o jogador completa corretamente a sequência, ela se torna mais longa e desafiadora. Se o jogador errar a sequência, o jogo termina. 
 
 ## 🎞 Link para o video apresentação
-!!
+https://youtu.be/3hbB1hQXCTA
 
 ## 💎 Link do Tinkercad
 https://wokwi.com/projects/400532287525314561
